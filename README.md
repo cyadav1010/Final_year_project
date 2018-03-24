@@ -23,7 +23,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics import pairwise_distances
 from matplotlib import gridspec
 
-# we have give a json file which consists of all information about
-# the products
-# loading the data using pandas' read_json file.
+we have give a json file which consists of all information about
+ the products
+loading the data using pandas' read_json file.
 data = pd.read_json('tops_Products.json')
